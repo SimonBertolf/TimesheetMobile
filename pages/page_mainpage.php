@@ -19,19 +19,22 @@ require_once '../system/system_mainpage.php';
         <div>
          <img id="text" src="../images/Timesheet.png"
         </div>
-        <div id='sidebarbutton'>Menue <img src='../images/MenueLogo.png' style="width: 15px"></div>
+        <div id='sidebarbutton' >Menue <img src='../images/MenueLogo.png' style="width: 15px"></div>
         <div id="slide">
-            slider ding
+            <form method="post">
+                <button class="buttonSlide" name="userControle">User-Controls</button>
+                <button class="buttonSlide" name="timeControle">Time-Controls</button>
+            </form>
         </div>
         <div style="margin-top: 100px">
             <form method="post">
-                <button class="ButtonImage" name="export"><img src='../images/Export.png' style="width: 160px"></button>
                 <button class="ButtonImage" name="addTime"><img src='../images/AddTime.png' style="width: 160px"></button>
+                <button class="ButtonImage" name="export"><img src='../images/Export.png' style="width: 160px"></button>
             </form>
         </div>
     </body>
     <footer>
-        <p><?php  echo 'Angemeldet als: '.$_SESSION['vorname'].' '.$_SESSION['nachname']; ?></p>
+        <p> Angemeldet als: <?php  echo$_SESSION['vorname'].' '.$_SESSION['nachname']; ?></p>
     </footer>
 </html>
 

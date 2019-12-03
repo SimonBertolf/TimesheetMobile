@@ -1,13 +1,4 @@
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-input[type=number] {
-    -moz-appearance:textfield;
-}
-
-/*Farben
+/*Farben und so
 Copperplate Gothic  Text Stxle
             DDDDDD  Hintergrund/hellgrau
             383838  Grau/vom Logo
@@ -17,65 +8,103 @@ Copperplate Gothic  Text Stxle
             000000  Schwarz
 
 */
-body{
-    margin: 0px;
-    padding: 0px;
-    whidth: 100vw;
-    height: 100vh;
-    background-color: #DDDDDD;
-    display: flex;
-    flex-direction: column;
-    font-family: "Century Gothic";
-    text-align: center;
-    justify-content: flex-start;
-    overflow: hidden;
-}
-footer{
-    position: absolute;
-    bottom: 0;
-}
-.input{
-    width: 200px;
-    font-family: "Century Gothic";
-    border-radius: 8px;
-    background-color: #383838;
-    color: #DDDDDD;
-    font-weight: bolder;
-    border: unset;
-    text-align: center;
-    margin-top: 15px;
-}
-.button{
-    width: 200px;
-    font-family: "Century Gothic";
-    border-radius: 8px;
-    background-color: #383838;
-    color: #DDDDDD;
-    font-weight: bolder;
-    border: unset;
-    margin-top: 15px;
-}
-.ButtonImage{
-    background-color: unset;
-    border: unset;
-}
-#logo{
-    height: 200px;
-}
-#text{
-     height: 100px;
-}
-#column{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-#slide{
-    padding: 20px;
-    display: none;
-    background-color: #D0D0D0;
-}
-#sidebarbutton{
-    padding: 10px;
-    background-color: #8D8D8D;
-}
+
+/*Algemeines*/
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    input[type=number] {
+        -moz-appearance:textfield;
+    }
+    body{
+        margin: 0px;
+        padding: 0px;
+        whidth: 100vw;
+        height: 100vh;
+        background-color: #DDDDDD;
+        display: flex;
+        flex-direction: column;
+        font-family: "Century Gothic";
+        text-align: center;
+        justify-content: flex-start;
+        overflow: hidden;
+    }
+    footer{
+        position: absolute;
+        bottom:0;
+        height: 40px;
+        width: 100vw;
+        font-size: 13px;
+        color: #8D8D8D;
+        background-color: #D0D0D0;
+    }
+/*Algemeines Ende*/
+
+/*DIVs*/
+/*DIVs Ende*/
+
+/*Buttons*/
+    .button{
+        width: 200px;
+        font-family: "Century Gothic";
+        border-radius: 8px;
+        background-color: #383838;
+        color: #DDDDDD;
+        font-weight: bolder;
+        border: unset;
+        margin-top: 15px;
+    }
+    .ButtonImage{
+        background-color: unset;
+        border: unset;
+    }
+/*Buttons Ende*/
+
+/*Slider*/
+    #slide{
+        padding: 1px;
+        display: none;
+        background-color: #D0D0D0;
+    }
+    #sidebarbutton{
+        padding: 10px;
+        background-color: #8D8D8D;
+        font-size: 20px;
+    }
+    .buttonSlide{
+        width: 200px;
+        font-family: "Century Gothic";
+        border-radius: 8px;
+        background-color: #8D8D8D;
+        color: #383838;
+        border: unset;
+        margin-top: 15px;
+        height: 30px;
+        width: 300px;
+    }
+/*Slider Ende*/
+
+/*Input*/
+    .input{
+        width: 200px;
+        font-family: "Century Gothic";
+        border-radius: 8px;
+        background-color: #383838;
+        color: #DDDDDD;
+        font-weight: bolder;
+        border: unset;
+        text-align: center;
+        margin-top: 15px;
+    }
+/*Input Ende*/
+
+/*Images*/
+    #logo{
+        height: 200px;
+    }
+    #text{
+         height: 100px;
+    }
+/*Images Ende*/
