@@ -13,7 +13,7 @@ if (isset($_POST['login'])) {
         $_SESSION['userId'] = $res['userId'];
         $_SESSION['nachname'] = $res['nachname'];
         $_SESSION['vorname'] = $res['vorname'];
-        header('Location: ../pages/page_default.php');
+        header('Location: ../pages/page_mainpage.php');
     } else {
         $errorMessage = " E-Mail oder Passwort ist Ungültig !!";
     }

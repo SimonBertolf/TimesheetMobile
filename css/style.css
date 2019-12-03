@@ -8,10 +8,14 @@ input[type=number] {
 }
 
 /*Farben
-DDDDDD  Hintergrund/hellgrau
-383838  Grau/vom Logo
-9D0071  Violet/vom Logo
-000000  Schwarz
+Copperplate Gothic  Text Stxle
+            DDDDDD  Hintergrund/hellgrau
+            383838  Grau/vom Logo
+            8D8D8D  Grau Slidebar button
+            D0D0D0  Grau Slidebar
+            9D0071  Violet/vom Logo
+            000000  Schwarz
+
 */
 body{
     margin: 0px;
@@ -24,6 +28,11 @@ body{
     font-family: "Century Gothic";
     text-align: center;
     justify-content: flex-start;
+    overflow: hidden;
+}
+footer{
+    position: absolute;
+    bottom: 0;
 }
 .input{
     width: 200px;
@@ -45,7 +54,10 @@ body{
     font-weight: bolder;
     border: unset;
     margin-top: 15px;
-
+}
+.ButtonImage{
+    background-color: unset;
+    border: unset;
 }
 #logo{
     height: 200px;
@@ -53,14 +65,17 @@ body{
 #text{
      height: 100px;
 }
-
 #column{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
-
-#slide {
-    padding: 50px;
+#slide{
+    padding: 20px;
     display: none;
+    background-color: #D0D0D0;
+}
+#sidebarbutton{
+    padding: 10px;
+    background-color: #8D8D8D;
 }
