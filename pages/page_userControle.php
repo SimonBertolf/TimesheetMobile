@@ -27,8 +27,14 @@ require_once '../system/system_userControle.php';
         <button class="buttonSlide" name="mainPage">Main Page</button>
     </form>
 </div>
-<div style="margin-top: 100px">
-    Name und PW ändern
+<div style="margin-top: 80px">
+    <p>E-mail und Passwort Ändern</p>
+    <form method="post">
+        <input class="inputControl" name="email" placeholder="E-mail" type="email" >
+        <input class="inputControl" name="pasword" placeholder="Passwort" >
+        <button class="buttonSlide" name="change">Ändern</button>
+        <p class="font01"><?php echo $mesage; ?></p>
+    </form>
 </div>
 </body>
 <footer>

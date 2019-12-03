@@ -40,9 +40,14 @@ Copperplate Gothic  Text Stxle
         color: #8D8D8D;
         background-color: #D0D0D0;
     }
+
 /*Algemeines Ende*/
 
 /*DIVs*/
+.font01{
+    font-size: 13px;
+    color: #9D0071;
+}
 /*DIVs Ende*/
 
 /*Buttons*/
@@ -60,6 +65,17 @@ Copperplate Gothic  Text Stxle
         background-color: unset;
         border: unset;
     }
+    .buttonSlide{
+        width: 200px;
+        font-family: "Century Gothic";
+        border-radius: 8px;
+        background-color: #8D8D8D;
+        color: #383838;
+        border: unset;
+        margin-top: 15px;
+        height: 30px;
+        width: 300px;
+    }
 /*Buttons Ende*/
 
 /*Slider*/
@@ -73,17 +89,7 @@ Copperplate Gothic  Text Stxle
         background-color: #8D8D8D;
         font-size: 20px;
     }
-    .buttonSlide{
-        width: 200px;
-        font-family: "Century Gothic";
-        border-radius: 8px;
-        background-color: #8D8D8D;
-        color: #383838;
-        border: unset;
-        margin-top: 15px;
-        height: 30px;
-        width: 300px;
-    }
+
 /*Slider Ende*/
 
 /*Input*/
@@ -97,6 +103,18 @@ Copperplate Gothic  Text Stxle
         border: unset;
         text-align: center;
         margin-top: 15px;
+    }
+    .inputControl{
+        width: 200px;
+        font-family: "Century Gothic";
+        border-radius: 8px;
+        background-color: #8D8D8D;
+        color: #383838;
+        border: unset;
+        margin-top: 15px;
+        height: 30px;
+        width: 300px;
+        text-align: center;
     }
 /*Input Ende*/
 
