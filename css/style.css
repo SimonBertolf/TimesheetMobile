@@ -1,0 +1,66 @@
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+/*Farben
+DDDDDD  Hintergrund/hellgrau
+383838  Grau/vom Logo
+9D0071  Violet/vom Logo
+000000  Schwarz
+*/
+body{
+    margin: 0px;
+    padding: 0px;
+    whidth: 100vw;
+    height: 100vh;
+    background-color: #DDDDDD;
+    display: flex;
+    flex-direction: column;
+    font-family: "Century Gothic";
+    text-align: center;
+    justify-content: flex-start;
+}
+.input{
+    width: 200px;
+    font-family: "Century Gothic";
+    border-radius: 8px;
+    background-color: #383838;
+    color: #DDDDDD;
+    font-weight: bolder;
+    border: unset;
+    text-align: center;
+    margin-top: 15px;
+}
+.button{
+    width: 200px;
+    font-family: "Century Gothic";
+    border-radius: 8px;
+    background-color: #383838;
+    color: #DDDDDD;
+    font-weight: bolder;
+    border: unset;
+    margin-top: 15px;
+
+}
+#logo{
+    height: 200px;
+}
+#text{
+     height: 100px;
+}
+
+#column{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#slide {
+    padding: 50px;
+    display: none;
+}
