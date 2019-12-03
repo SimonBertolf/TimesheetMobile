@@ -29,6 +29,7 @@ if (isset($_POST['change'])){
     if($_POST['pasword'] == null && $_POST['email'] == null){
         $mesage = 'Fülle die Felder aus';
     }
+    $db->close_connection();
 }
 
 

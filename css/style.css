@@ -39,15 +39,47 @@ Copperplate Gothic  Text Stxle
         font-size: 13px;
         color: #8D8D8D;
         background-color: #D0D0D0;
+        z-index:1;
     }
 
 /*Algemeines Ende*/
 
-/*DIVs*/
+/*DIVs and Fonts*/
 .font01{
     font-size: 13px;
     color: #9D0071;
 }
+.font02{
+    font-size: 13px;
+    color: #8D8D8D;
+}
+.div02{
+    position: absolute;
+    left: 0;
+    height: 20px;
+    width: 82px;
+    background-color: #D0D0D0;
+    z-index:2
+}
+.div01{
+    position: absolute;
+    left: 0;
+    height: 70vh;
+    width: 100px;
+    background-color: #D0D0D0;
+    margin-top: 40px;
+    z-index:1
+}
+.div03{
+    position: absolute;
+    right: 0;
+    height: 75vh;
+    width: 300px;
+    background-color: #D0D0D0;
+    z-index:0;
+    display: none;
+}
+
 /*DIVs Ende*/
 
 /*Buttons*/
@@ -76,6 +108,13 @@ Copperplate Gothic  Text Stxle
         height: 30px;
         width: 300px;
     }
+    .button01{
+        font-family: "Century Gothic";
+        border: none;
+        background-color: unset;
+        font-size: 15px;
+        color: #383838;
+    }
 /*Buttons Ende*/
 
 /*Slider*/
@@ -85,10 +124,23 @@ Copperplate Gothic  Text Stxle
         background-color: #D0D0D0;
     }
     #sidebarbutton{
+        margin-top: 30px;
         padding: 10px;
         background-color: #8D8D8D;
         font-size: 20px;
+        font-weight: bolder;
     }
+#slide1{
+    padding: 1px;
+    display: none;
+    background-color: #D0D0D0;
+}
+#sidebarbutton1{
+    padding: 10px;
+    background-color: #D0D0D0;
+    font-size: 15px;
+    font-weight: bold;
+}
 
 /*Slider Ende*/
 
@@ -123,6 +175,7 @@ Copperplate Gothic  Text Stxle
         height: 200px;
     }
     #text{
-         height: 100px;
+        margin-top: 30px;
+         height: 40px;
     }
 /*Images Ende*/
