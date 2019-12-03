@@ -11,9 +11,9 @@ if (isset($_POST['export'])){
 }
 
 if (isset($_POST['userControle'])){
-    header('Location: ../pages/page_export.php');
+    header('Location: ../pages/page_userControle.php');
 }
 
 if (isset($_POST['timeControle'])){
-    header('Location: ../pages/page_export.php');
+    header('Location: ../pages/page_timeControle.php');
 }
