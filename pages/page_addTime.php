@@ -8,32 +8,34 @@ require_once '../system/system_addTime.php';
         <title>TimeSheet</title>
         <script>
             $(document).ready(function(){
-                $("#sidebarbutton").click(function(){
-                    $("#slide").slideToggle("slow");
+                $("#1").click(function(){
+                    $("#2").slideToggle("slow");
                 });
             });
         </script>
     </head>
 
+
     <body>
         <div>
          <img id="text" src="../images/Timesheet.png"
         </div>
-        <div id='sidebarbutton' >Menue <img src='../images/MenueLogo.png' style="width: 15px"></div>
-        <div id="slide">
+        <div class="button02" id='1' >Menue</div>
+        <div class="div02" id="2">
             <form method="post">
-                <button class="buttonSlide" name="userControle">User-Controls</button>
-                <button class="buttonSlide" name="timeControle">Time-Controls</button>
-                <button class="buttonSlide" name="mainPage">Main Page</button>
+                <button class="button03" name="userControle">User-Controls</button>
+                <button class="button03" name="timeControle">Time-Controls</button>
+                <button class="button03" name="mainPage">Main Page</button>
             </form>
         </div>
-        <div style="margin-top: 100px">
+        <div >
 
 Datum Start Stop Projekt Description
         </div>
     </body>
+
     <footer>
-        <p> Angemeldet als: <?php  echo$_SESSION['vorname'].' '.$_SESSION['nachname']; ?></p>
+        <p class="font02"> Angemeldet als: <?php  echo$_SESSION['vorname'].' '.$_SESSION['nachname']; ?></p>
     </footer>
 </html>
 

@@ -12,11 +12,11 @@ require_once '../system/system_login.php';
             <img id="logo" src="../images/TSLogo.png">
         </div>
         <div>
-            <form method="post">
-                <input class="input" type="email" name="email" placeholder="E-mail" required>
-                <input class="input" type="password" name="pasword" placeholder="Passwort" required>
-                <button class="button" name="login">Login</button>
-                <p class="error"><?php if (isset($errorMessage)){ echo$errorMessage;}?></p>
+            <form method="post" class="div01">
+                <input class="input01" type="email" name="email" placeholder="E-mail" required>
+                <input class="input01" type="password" name="pasword" placeholder="Passwort" required>
+                <button class="button01" name="login">Login</button>
+                <p class="font01"><?php if (isset($errorMessage)){ echo$errorMessage;}?></p>
             </form>
         </div>
     </body>

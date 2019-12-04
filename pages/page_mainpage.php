@@ -8,8 +8,8 @@ require_once '../system/system_mainpage.php';
         <title>TimeSheet</title>
         <script>
             $(document).ready(function(){
-                $("#sidebarbutton").click(function(){
-                    $("#slide").slideToggle("slow");
+                $("#1").click(function(){
+                    $("#2").slideToggle("slow");
                 });
             });
         </script>
@@ -19,23 +19,25 @@ require_once '../system/system_mainpage.php';
         <div>
          <img id="text" src="../images/Timesheet.png"
         </div>
-        <div id='sidebarbutton' >Menue <img src='../images/MenueLogo.png' style="width: 15px"></div>
-        <div id="slide">
-            <form method="post">
-                <button class="buttonSlide" name="userControle">User-Controls</button>
-                <button class="buttonSlide" name="timeControle">Time-Controls</button>
-                <button class="buttonSlide" name="logOut">Logout</button>
+        <div class="button02" id='1' >Menue </div>
+        <div class="div02" id="2">
+            <form method="post" class="div01">
+                <button class="button03" name="userControle">User-Controls</button>
+                <button class="button03" name="timeControle">Time-Controls</button>
+                <button class="button03" name="logOut">Logout</button>
             </form>
         </div>
-        <div style="margin-top: 100px">
+        <div>
             <form method="post">
-                <button class="ButtonImage" name="addTime"><img src='../images/AddTime.png' style="width: 160px"></button>
-                <button class="ButtonImage" name="export"><img src='../images/Export.png' style="width: 160px"></button>
+                <button class="Button00" name="addTime"><img src='../images/AddTime.png' style="width: 160px"></button>
+                <button class="Button00" name="export"><img src='../images/Export.png' style="width: 160px"></button>
             </form>
         </div>
     </body>
+
     <footer>
-        <p> Angemeldet als: <?php  echo$_SESSION['vorname'].' '.$_SESSION['nachname']; ?>  </p>
+        <p class="font02"> Angemeldet als: <?php  echo$_SESSION['vorname'].' '.$_SESSION['nachname']; ?>  </p>
     </footer>
+
 </html>
 

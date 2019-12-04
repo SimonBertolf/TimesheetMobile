@@ -36,6 +36,7 @@ Copperplate Gothic  Text Stxle
         height: 40px;
         width: 100vw;
         font-size: 13px;
+        text-align: center;
         color: #8D8D8D;
         background-color: #D0D0D0;
         z-index:1;
@@ -49,62 +50,60 @@ Copperplate Gothic  Text Stxle
 
 /*DIVs and Fonts*/
     .font01{
+        font-family: "Century Gothic";
         font-size: 13px;
         color: #9D0071;
     }
     .font02{
-        font-size: 13px;
-        color: #8D8D8D;
-    }
-    .font03{
-        font-size: 25px;
-        color: #383838;
-        font-weight: bold;
+          font-family: "Century Gothic";
+          font-size: 13px;
+          color: #8D8D8D;
+    }.font03{
+         font-family: "Century Gothic";
+         font-size: 18px;
+         color: #383838;
+         font-weight: bold;
     }
     .div01{
-        height: 70vh;
-        width: 300px;
-        margin-top: 25px;
-        z-index:1
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
     }
     .div02{
-        position: absolute;
-        left: 0;
-        height: 20px;
-        width: 82px;
+        padding: 1px;
+        display: none;
         background-color: #D0D0D0;
-        z-index:2
-    }
-    .div03{
-        position: absolute;
-        left: 0;
-        height: 75vh;
-        width: 500px;
-        background-color: #DDDDDD;
-        margin-left: 105px;
-        z-index:3;
-        text-align: left;
     }
 
 /*DIVs Ende*/
 
 /*Buttons*/
-    .button{
+     .Button00{
+        background-color: unset;
+        border: unset;
+    }
+    .button01{
         width: 200px;
+        height: 30px;
         font-family: "Century Gothic";
         border-radius: 8px;
         background-color: #383838;
         color: #DDDDDD;
+        border: unset;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .button02{
+        margin-top: 30px;
+        height: 30px;
+        font-family: "Century Gothic";
+        background-color: #8D8D8D;
+        font-size: 20px;
         font-weight: bolder;
-        border: unset;
-        margin-top: 15px;
+        color: #383838;
     }
-    .ButtonImage{
-        background-color: unset;
-        border: unset;
-    }
-    .buttonSlide{
-        width: 200px;
+    .button03{
         font-family: "Century Gothic";
         border-radius: 8px;
         background-color: #8D8D8D;
@@ -114,56 +113,22 @@ Copperplate Gothic  Text Stxle
         height: 30px;
         width: 300px;
     }
-    .button01{
-        font-family: "Century Gothic";
-        border: none;
-        background-color: unset;
-        font-size: 15px;
-        color: #383838;
-    }
+
 /*Buttons Ende*/
 
-/*Slider*/
-    #slide{
-        padding: 1px;
-        display: none;
-        background-color: #D0D0D0;
-    }
-    #sidebarbutton{
-        margin-top: 30px;
-        padding: 10px;
-        background-color: #8D8D8D;
-        font-size: 20px;
-        font-weight: bolder;
-        color: #383838;
-    }
-    #slide1{
-        padding: 1px;
-        display: none;
-        background-color: #D0D0D0;
-    }
-    #sidebarbutton1{
-        padding: 10px;
-        background-color: #D0D0D0;
-        font-size: 15px;
-        font-weight: bold;
-    }
-
-/*Slider Ende*/
-
 /*Input*/
-    .input{
+    .input01{
         width: 200px;
+        height: 30px;
         font-family: "Century Gothic";
         border-radius: 8px;
         background-color: #383838;
         color: #DDDDDD;
-        font-weight: bolder;
         border: unset;
         text-align: center;
-        margin-top: 15px;
+        margin-top: 10px;
     }
-    .inputControl{
+    .input02{
         width: 200px;
         font-family: "Century Gothic";
         border-radius: 8px;
