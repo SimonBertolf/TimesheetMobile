@@ -22,7 +22,6 @@ require_once '../system/system_userControle.php';
 <div id='sidebarbutton' >Menue <img src='../images/MenueLogo.png' style="width: 15px"></div>
 <div id="slide">
     <form method="post">
-<!--        <button class="buttonSlide" name="userControle">User-Controls</button>-->
         <button class="buttonSlide" name="timeControle">Time-Controls</button>
         <button class="buttonSlide" name="mainPage">Main Page</button>
         <button class="buttonSlide" name="logOut">Logout</button>
