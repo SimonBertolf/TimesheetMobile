@@ -25,6 +25,7 @@ require_once '../system/system_userControle.php';
 <!--        <button class="buttonSlide" name="userControle">User-Controls</button>-->
         <button class="buttonSlide" name="timeControle">Time-Controls</button>
         <button class="buttonSlide" name="mainPage">Main Page</button>
+        <button class="buttonSlide" name="logOut">Logout</button>
     </form>
 </div>
 <div style="margin-top: 80px">

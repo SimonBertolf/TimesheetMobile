@@ -24,6 +24,7 @@ require_once '../system/system_mainpage.php';
             <form method="post">
                 <button class="buttonSlide" name="userControle">User-Controls</button>
                 <button class="buttonSlide" name="timeControle">Time-Controls</button>
+                <button class="buttonSlide" name="logOut">Logout</button>
             </form>
         </div>
         <div style="margin-top: 100px">
@@ -34,7 +35,7 @@ require_once '../system/system_mainpage.php';
         </div>
     </body>
     <footer>
-        <p> Angemeldet als: <?php  echo$_SESSION['vorname'].' '.$_SESSION['nachname']; ?></p>
+        <p> Angemeldet als: <?php  echo$_SESSION['vorname'].' '.$_SESSION['nachname']; ?>  </p>
     </footer>
 </html>
 

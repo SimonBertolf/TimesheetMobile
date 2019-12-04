@@ -1,6 +1,7 @@
 <?php
 require_once '../system/system_timeControle.php';
-require_once '../class/Class_database.php'
+require_once '../class/Class_database.php';
+session_start();
 ?>
 
 <html>
@@ -32,23 +33,10 @@ require_once '../class/Class_database.php'
         <form method="post">
             <button class="buttonSlide" name="userControle">User-Controls</button>
             <button class="buttonSlide" name="mainPage">Main Page</button>
+            <button class="buttonSlide" name="logOut">Logout</button>
         </form>
     </div>
     <div>
-        <div class="div02" id='sidebarbutton1' style="">Projekte <img src='../images/MenueLogo.png' style="width: 15px"></div>
-        <div class="div01" id="slide1">
-            <?php
-            $db = new Class_database();
-            $query = $db->mysql->query('SELECT projektname FROM projekt ORDER BY projektname');
-            $db->close_connection();
-            while ($res = $query->fetch_assoc()){
-                echo ('</br><button class="button01" name='.$res['projektname'].'>'.$res['projektname']. '</button></br>');
-            }
-            ?>
-        </div>
-        <div class="div03">
-        </div>
-
     </div>
 </body>
 <footer>

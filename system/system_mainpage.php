@@ -17,3 +17,8 @@ if (isset($_POST['userControle'])){
 if (isset($_POST['timeControle'])){
     header('Location: ../pages/page_timeControle.php');
 }
+
+if (isset($_POST['logOut'])){
+    session_destroy();
+    header('Location: ../pages/page_login.php');
+}

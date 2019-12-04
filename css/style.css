@@ -72,12 +72,13 @@ Copperplate Gothic  Text Stxle
 }
 .div03{
     position: absolute;
-    right: 0;
+    left: 0;
     height: 75vh;
-    width: 300px;
-    background-color: #D0D0D0;
+    width: 500px;
+    background-color: #DDDDDD;
+    margin-left: 105px;
     z-index:0;
-    display: none;
+    text-align: left;
 }
 
 /*DIVs Ende*/

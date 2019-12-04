@@ -10,6 +10,11 @@ if (isset($_POST['mainPage'])){
     header('Location: ../pages/page_mainPage.php');
 }
 
+if (isset($_POST['logOut'])){
+    session_destroy();
+    header('Location: ../pages/page_login.php');
+}
+
 $vorname = $_SESSION['vorname'];
 $nachname = $_SESSION['nachname'];
 $email = $_POST['email'];
