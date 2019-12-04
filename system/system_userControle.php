@@ -20,6 +20,7 @@ $nachname = $_SESSION['nachname'];
 $email = $_POST['email'];
 $pasword = md5($_POST['pasword']);
 $mesage = '';
+
 if (isset($_POST['change'])){
     $db = new Class_database();
 

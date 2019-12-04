@@ -1,4 +1,6 @@
 <?php
+session_start();
+require_once '../class/Class_database.php';
 
 if (isset($_POST['userControle'])){
     header('Location: ../pages/page_userControle.php');

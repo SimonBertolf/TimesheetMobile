@@ -1,7 +1,6 @@
 <?php
 require_once '../system/system_timeControle.php';
-require_once '../class/Class_database.php';
-session_start();
+
 ?>
 
 <html>
@@ -35,8 +34,6 @@ session_start();
             <button class="buttonSlide" name="mainPage">Main Page</button>
             <button class="buttonSlide" name="logOut">Logout</button>
         </form>
-    </div>
-    <div>
     </div>
 </body>
 <footer>
