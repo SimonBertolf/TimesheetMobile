@@ -26,7 +26,6 @@ Copperplate Gothic  Text Stxle
         background-color: #DDDDDD;
         display: flex;
         flex-direction: column;
-        font-family: "Century Gothic";
         text-align: center;
         justify-content: flex-start;
         overflow: hidden;
@@ -44,50 +43,48 @@ Copperplate Gothic  Text Stxle
     select{
         border: unset;
         background-color: unset;
-        font-family: "Century Gothic";
         color: #383838;
     }
 /*Algemeines Ende*/
 
 /*DIVs and Fonts*/
-.font01{
-    font-size: 13px;
-    color: #9D0071;
-}
-.font02{
-    font-size: 13px;
-    color: #8D8D8D;
-}
-.font03{
-    font-size: 25px;
-    color: #383838;
-    font-weight: bold;
-}
-
-.div02{
-    position: absolute;
-    left: 0;
-    height: 20px;
-    width: 82px;
-    background-color: #D0D0D0;
-    z-index:2
-}
-.div01{
-    height: 70vh;
-    width: 300px;
-    margin-top: 25px;
-    z-index:1
-}
-.div03{
-    position: absolute;
-    left: 0;
-    height: 75vh;
-    width: 500px;
-    background-color: #DDDDDD;
-    margin-left: 105px;
-    z-index:0;
-    text-align: left;
-}
+    .font01{
+        font-size: 13px;
+        color: #9D0071;
+    }
+    .font02{
+        font-size: 13px;
+        color: #8D8D8D;
+    }
+    .font03{
+        font-size: 25px;
+        color: #383838;
+        font-weight: bold;
+    }
+    .div01{
+        height: 70vh;
+        width: 300px;
+        margin-top: 25px;
+        z-index:1
+    }
+    .div02{
+        position: absolute;
+        left: 0;
+        height: 20px;
+        width: 82px;
+        background-color: #D0D0D0;
+        z-index:2
+    }
+    .div03{
+        position: absolute;
+        left: 0;
+        height: 75vh;
+        width: 500px;
+        background-color: #DDDDDD;
+        margin-left: 105px;
+        z-index:3;
+        text-align: left;
+    }
 
 /*DIVs Ende*/
 
@@ -140,17 +137,17 @@ Copperplate Gothic  Text Stxle
         font-weight: bolder;
         color: #383838;
     }
-#slide1{
-    padding: 1px;
-    display: none;
-    background-color: #D0D0D0;
-}
-#sidebarbutton1{
-    padding: 10px;
-    background-color: #D0D0D0;
-    font-size: 15px;
-    font-weight: bold;
-}
+    #slide1{
+        padding: 1px;
+        display: none;
+        background-color: #D0D0D0;
+    }
+    #sidebarbutton1{
+        padding: 10px;
+        background-color: #D0D0D0;
+        font-size: 15px;
+        font-weight: bold;
+    }
 
 /*Slider Ende*/
 
