@@ -21,15 +21,15 @@ require_once '../system/system_userControle.php';
         </div>
         <div class="button02" id='1' > Menue </div>
         <div class="div02" id="2">
-            <form method="post">
+            <form method="post" class="div01">
                 <button class="button03" name="timeControle">Time-Controls</button>
                 <button class="button03" name="mainPage">Main Page</button>
                 <button class="button03" name="logOut">Logout</button>
             </form>
         </div>
-        <div >
+        <div>
             <p class="font03">E-mail und Passwort Ändern</p>
-            <form method="post">
+            <form method="post" class="div01">
                 <input class="input02" name="email" placeholder="E-mail" type="email" >
                 <input class="input02" name="pasword" placeholder="Passwort" >
                 <button class="button03" name="change">Ändern</button>
